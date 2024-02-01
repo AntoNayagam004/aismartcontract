@@ -1,0 +1,90 @@
+/* Add this to your existing CSS */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.app {
+  text-align: center;
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.app-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.app-wrapper {
+  margin-top: 20px;
+}
+
+.app-button-login,
+.app-buttons__logout {
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.app-button-login:hover,
+.app-buttons__logout:hover {
+  background-color: #2980b9;
+}
+
+.app-details {
+  margin-top: 20px;
+}
+
+.app-balance {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.move_further {
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+.move {
+  width: 95vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+}
+
+.move .openModalBtn {
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.move .openModalBtn:hover {
+  background-color: #2980b9;
+}
